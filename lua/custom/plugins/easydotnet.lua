@@ -24,7 +24,7 @@ return {
       --Optional function to return the path for the dotnet sdk (e.g C:/ProgramFiles/dotnet/sdk/8.0.0)
       -- easy-dotnet will resolve the path automatically if this argument is omitted, for a performance improvement you can add a function that returns a hardcoded string
       -- You should define this function to return a hardcoded path for a performance improvement 🚀
-      get_sdk_path = '/usr/local/share/dotnet/sdk/8.0.412/', -- Commented out since function is not defined
+      get_sdk_path = '~/.dotnet/sdk/8.0.416/', -- Commented out since function is not defined
       ---@type TestRunnerOptions
       test_runner = {
         ---@type "split" | "vsplit" | "float" | "buf"

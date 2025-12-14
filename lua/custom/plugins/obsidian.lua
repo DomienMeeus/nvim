@@ -86,11 +86,11 @@ return {
     workspaces = {
       {
         name = 'personal',
-        path = '~/Documents/Notes/personal',
+        path = '~/Documents/Obsidian/personal',
       },
       {
         name = 'work',
-        path = '~/Documents/Notes/zinderlabs',
+        path = '~/Documents/Obsidian/zinderlabs',
       },
     },
 

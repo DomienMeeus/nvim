@@ -72,4 +72,4 @@ vim.keymap.set('n', '<leader>wd', '<C-w>q ', { desc = '[W]indow [D]elete' })
 
 -- save utils
 vim.keymap.set('n', '<leader>ww', ':w<CR>', { desc = '[W]rite Buffer' })
-vim.keymap.set('n', '<leader>wa', ':w<CR>', { desc = '[W]rite [A]ll Buffers' })
+vim.keymap.set('n', '<leader>wa', ':wa<CR>', { desc = '[W]rite [A]ll Buffers' })
